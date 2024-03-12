@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# (build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test): commit message
+npx --no-install commitlint --edit $1

@@ -1,0 +1,56 @@
+# NodeJS
+node_modules
+.next
+.husky
+.env
+
+# GENERAL
+Dockerfile
+README.md
+.git*
+
+# e2e
+cypress.env.json
+cypress/videos/*
+cypress/screenshots/*
+
+# storybook
+/storybook-static
+
+# IDE
+/.idea
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/test
+
+# nest.js
+/dist/
+/docs/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
